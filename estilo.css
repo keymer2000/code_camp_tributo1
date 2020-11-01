@@ -6,7 +6,7 @@ body{
     background-color: rgb(229, 226, 226);
 }
 
-#tittle{
+#title{
     text-align: center;
 }
 
@@ -16,7 +16,7 @@ body{
     margin-top: 10px;
 }
 
-#image-div{
+#img-div{
     border-radius: 5px;
     background-color: rgb(229, 226, 226);   
     width: 80%;
@@ -26,9 +26,10 @@ body{
 #image{
     padding-top: 20px;
     display:block;
-    margin:auto;
-    width: 1000px;
-    height: 600px;
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
 }
 
 #img-caption{
@@ -60,4 +61,8 @@ div > p{
     margin-top: 60px;
     font-size: 20px;
     text-align: center;
+}
+
+#tribute-link{
+    font-family: 'Courier New', Courier, monospace;
 }
